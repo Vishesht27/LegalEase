@@ -28,14 +28,14 @@ export const AppHeader = () => {
           link. */}
               {/* eslint-disable-next-line react/jsx-no-target-blank */}
               <a
-                href={appHeader.logo.link ?? "https://vectara.com/"}
+                href={appHeader.logo.link ?? "https://github.com/Vishesht27/LegalGenius"}
                 target="_blank"
                 className="appHeaderLogo"
               >
                 <img
-                  src={appHeader.logo.src ?? "images/vectara_logo.png"}
+                  src={appHeader.logo.src ?? "images/legal-icon.png"}
                   alt={appHeader.logo.alt ?? "Vectara logo"}
-                  height={appHeader.logo.height ?? "20"}
+                  height={appHeader.logo.height ?? "60"}
                   style={{ marginTop: "1px" }}
                 />
               </a>
@@ -44,7 +44,7 @@ export const AppHeader = () => {
             <VuiFlexItem grow={1}>
               <VuiTitle size="xs" align="left">
                 <VuiTextColor color="subdued">
-                  <h1>Sample app</h1>
+                  <h1>LegalEase</h1>
                 </VuiTextColor>
               </VuiTitle>
             </VuiFlexItem>
@@ -92,17 +92,17 @@ export const AppHeader = () => {
               <VuiButtonPrimary
                 color="primary"
                 size="m"
-                href="https://console.vectara.com/"
+                href="https://github.com/Vishesht27/LegalEase"
                 target="_blank"
                 onClick={() => {
                   ReactGA.event({
                     category: "Outbound link",
                     action: "click",
-                    label: "Try Vectara",
+                    label: "Checkout GitHub repo",
                   });
                 }}
               >
-                Try Vectara now
+                Checkout GitHub repo
               </VuiButtonPrimary>
             </VuiFlexItem>
           </VuiFlexContainer>

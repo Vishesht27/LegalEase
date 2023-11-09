@@ -1,0 +1,65 @@
+corpus_id: 3
+customer_id: 2949975112
+
+
+# Define the title of your app to render in the browser tab.
+app_title: "LegalEase"
+
+# Hide or show the app header.
+enable_app_header: True
+
+# Hide or show the app footer.
+enable_app_footer: False
+
+# Define the URL the browser will redirect to when the user clicks the logo in the app header.
+app_header_logo_link: "https://github.com/Vishesht27/LegalEase"
+
+# # Define the logo that appears in the app header. Any images you place in your `config_images` directory will be available.
+# app_header_logo_src: "config_images/logo.png"
+
+# # Describe the logo for improved accessibility.
+# app_header_logo_alt: "Vectara logo"
+
+# Customize the height at which to render the logo. The width will scale proportionately.
+app_header_logo_height: 20
+
+# Hide or show source filters.
+enable_source_filters: False
+
+# whether the "all source" button should be enabled or not (default true)
+# all_sources: True
+
+# A comma-separated list of the sources on which users can filter.
+sources: ""
+
+# Switches the mode of the ux to "summary" mode or "search" mode (if not specified defaults to summary mode). When set to "summary", a summary is shown along with references used in the summary. When set to "search", only search results are shown and no calls made to the summarization API.
+ux: "summary"
+
+# Default language for summary response (if not specified defaults to "auto")
+summary_default_language: "eng"
+
+# Number of sentences before and after relevant text segment used for summarization
+summary_num_sentences: 3
+
+# Number of results used for summarization
+summary_num_results: 5
+
+# The name of the summarization prompt in Vectara
+# If you are a Vectara scale customer you can use custom prompts.
+# This field names a custom prompt, otherwise it uses the default for the account.
+summary_prompt_name: vectara-summary-ext-v1.2.0
+
+# Define the title to render next to the logo.
+search_title: "LegalEase"
+
+# Define the description to render opposite the logo and title.
+search_description: "Empowering you with legal expertise at your fingertips"
+
+# Define the placeholder text inside the search box.
+search_placeholder: "Ask a legal question or enter a topic..."
+
+source: ""
+
+summary_default_language: "eng"
+summary_num_sentences: 3
+summary_num_results: 7
